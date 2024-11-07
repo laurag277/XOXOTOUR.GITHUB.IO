@@ -1,0 +1,139 @@
+/* Estilos generales */
+body {
+    background-color: #4a148c;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3e5f5;
+    color: #4a148c;
+    
+}
+
+/* Barra de navegación */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6a1b9a;
+    padding: 5px;
+}
+
+.navbar a {
+    color: #f3e5f5;
+    text-decoration: none;
+    padding: 0.5rem 5px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #4a148c;
+    border-radius: 5px;
+}
+
+/* Sección de contenido */
+.content {
+    
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Estilos de botones */
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #6a1b9a;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.redes a{
+    background-color: #4a148c;
+}
+
+.btn:hover {
+    background-color: #4a148c;
+}
+
+.galeria{
+    display: flex;
+}
+
+p{
+    background-color: #d770e7ad;
+}
+@media (max-width: 767px) {
+    body{
+        background-image: url(../imagenes/fondo-evento.jpg);
+        background-color: #6a1b9a;
+        width: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .btn-mas-info {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #be19f0;
+        color: rgb(208, 11, 162);
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        
+    }
+    
+    .btn-mas-info:hover {
+        background-color: #a629f9;
+    }
+  
+    aside img{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    .fechas{
+        display:none
+    }
+
+    footer{
+        text-align: center;
+    }
+    
+   
+}
+
+@media (min-width: 768px) {
+    body{
+        background-image: url(../imagenes/fondo.jpg);
+        width: 100%;
+        background-color: #6a1b9a;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0;
+    }
+
+    footer img{
+        display: none;
+        
+    }
+    footer{
+        text-align: center;
+    }
+    .menu-icon{
+        display: none;
+    }
+    aside{
+        margin-top: 15%;
+        margin-left: 25%;
+    }
+    .fechas{
+        margin-top: 8%;
+        margin-left: 11%;
+    }
+
+}
